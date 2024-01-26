@@ -1,0 +1,40 @@
+Basic idea:
+
+Examine the difference in the data of acceleration sensors of a phone lying on the chest after (1) rest and (2) movement
+
+Experiment 1:
+
+Describtion of the setting
+
+i) Position of the phone:
+- Display to the ceiling
+- Top part of the phone aiming to the chin in the direction of the body length
+- Wearing on layer of thin clothes
+- Position on the sternum between the mamilla
+- lying on ever floor
+
+ii) Recording data
+- Press start 
+- Get in the position (seconds)
+- hold your breath for 10 seconds (count on your own)
+- stop recording
+-> For further anaysis we check for complete data, cut the first 3 s and up to second 8
+
+Slicing later on 
+
+(1) Rest Recording:
+- No other recording in the last 3 minutes 
+- Stand for at least 30 seconds just resting
+- Go on with ii)
+
+(2) Movement Recording
+- No other recording in the last 3 minutes 
+- Do 10 Burpees 
+- Directly go on with ii)
+
+
+iii) Technical specifications
+    - Device independent
+    - App: Phyphox
+    - Sensor: Acceleration with g
+    - Extract as CSV (Comma, decimal point)

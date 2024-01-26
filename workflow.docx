@@ -1,0 +1,85 @@
+Content:
+0. Collect Ideas
+1. Feasibility study + Technical Workflow
+2. Define the Study question
+    2.a) Statistical question
+    2.b) Gathering the data
+3. Gathering the data
+    3.a) Data Visualitation
+4. Preprocessing / Cleaning
+5. Analyzing
+6. Interpretation / Results
+7. Discussion
+
+
+
+0. Collect Ideas
+    + Examine the power of the acceleration sensors of the phone of differentiating between different levels of physical stress
+    + First of all: keep it simple:
+        Compare rest(0) vs. 10-Burpees (1)
+        Defining an SOP for Data Gathering
+
+
+1. Feasibility study + Technical Workflow
+    Experiences:
+
+
+    Environment:
+    - Using Gitlab for colaborating
+    - Using Python due to experience (both of us and Justin) and powerfull tools
+    - Choose an App (?) 
+    - Collect Data using guidance by SOP
+    - Preprocessing with pandas, numpy, (?)
+    - Visualization with Matplotlib + seaborn
+    - Statistical test
+
+
+
+2. Define the Study question + sample size calculation
+    Q1:
+        H0: There is no difference in our calculated score based on the sensor data between group rest and stress.
+        H1: The score is greater for the stress group (1) compared to the rest group (0).
+
+    Choosing appropriate test (check the distribution ->  parametric / non-parametric)
+
+    Estimating effect size:
+
+    alpha = 0.05
+
+    beta = 1 - Power = 0.2
+
+    Calculating the sample size based on a Pearson Correlation = 0.5  (Cohen`s D = 0.5):
+    
+    Based on alpha beta and Pearson Correlation = 
+
+    
+
+
+
+
+3. Gathering the data
+    3.a) Physical workflow
+        - see SOP_Collect_Data.docx
+
+    3.b) Saving as XXY.csv XX = PersonID , Y= 0 : Rest, Y = 1: Stress ( after 10 Burpees)
+
+    3.b) Data Visualitation
+
+
+
+4. Preprocessing / Cleaning
+    a) Cleaning and cutting
+    b) dealing with outliners
+    c) Feature Extraction 
+        - Calculating the Magnitude
+    
+
+5. Analyzing
+
+
+6. Interpretation / Results
+
+
+7. Discussion
+
+
